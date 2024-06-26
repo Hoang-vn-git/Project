@@ -1,0 +1,374 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+/* Style for Name of the shop  */
+.NameOfShop {
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+
+/* Style for the nagavitation  */
+.Nav_name {
+    padding-right: 50px;
+    font-size: 32px;
+}
+
+.Nav_name li {
+    list-style: none;
+    display: inline;
+    padding: 0px 20px;
+    font-size: 16px;
+}
+
+.Nav_name a {
+    text-decoration: none;
+}
+
+/* style for name and nagavitation  */
+.NameAndNav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    margin: 0 auto;
+}
+
+/* style for name of the brands  */
+.NameOfTheBrand {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: #FFF;
+    padding: 30px 0px;
+    font-size: 50px;
+}
+
+/* this is a style of image of the header  */
+.imageOfHeader {
+    display: block;
+}
+
+.image {
+    position: relative;
+}
+
+.vector {
+    position: absolute;
+    bottom: 300px;
+    left: 700px;
+}
+
+.vector1 {
+    position: absolute;
+    bottom: 500px;
+    left: 1300px;
+}
+
+.image h1 {
+    position: absolute;
+    bottom: 400px;
+    left: 100px;
+    width: 577px;
+}
+
+/* this is a paragraph in the header  */
+.p01 {
+    position: absolute;
+    bottom: 350px;
+    left: 100px;
+    width: 545px;
+}
+
+/* this is a button shop now  */
+.button {
+    position: absolute;
+    bottom: 250px;
+    left: 100px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 62px;
+    padding: 16px 54px;
+    text-align: center;
+}
+
+/* this is a number in the header  */
+.evaluate {
+    width: 700px;
+    margin-left: 30px;
+    position: absolute;
+    bottom: 100px;
+
+}
+
+.detail {
+    display: flex;
+    justify-content: space-around;
+}
+
+.detail li {
+    list-style: none;
+}
+
+/* this is a product list  */
+.products li {
+    list-style: none;
+}
+
+.product_info a {
+    text-decoration: none;
+}
+
+/* this is a new arrivals  */
+.HeadlineOfContent1 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+/* this is a product list  */
+.products {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products li {
+    margin-top: 30px;
+}
+
+.product_info {
+    padding: 15px 0px;
+}
+
+.product_name {
+    font-size: 20px;
+}
+
+.product_price {
+    font-size: 20px;
+}
+
+/* this is style for buy now button  */
+.buy_now {
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: brown;
+    color: yellow;
+    padding: 10px 0px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: -50px;
+}
+
+/* this is a style for product list  */
+.product_top {
+    text-align: center;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.product_top img {
+    display: block;
+}
+
+.product_top:hover a {
+    bottom: 0px;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.product_top:hover img {
+    filter: blur(1px);
+}
+
+/* this is a line seperate  */
+.line {
+    background-color: rgba(0, 0, 0, 0.10);
+    width: 1240px;
+    height: 1px;
+    margin: 15px auto;
+}
+
+/* this is a style of brow by dress style  */
+.imageofstyle li {
+    list-style: none;
+    padding: 5px 5px;
+}
+
+.imageofstyle {
+    padding-bottom: 50px;
+}
+
+.imageofstyle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.headlineofstyle {
+    padding: 50px 0px;
+    text-transform: uppercase;
+}
+
+.style {
+    background-color: #F0F0F0;
+    text-align: center;
+    width: 1239px;
+    margin: 100px auto;
+    border-radius: 40px;
+    position: relative;
+}
+
+/* this is a word in side a dess style  */
+.pic1 {
+    position: absolute;
+    bottom: 600px;
+    left: 100px;
+    font-size: 36px;
+}
+
+.pic2 {
+    position: absolute;
+    bottom: 300px;
+    left: 100px;
+    font-size: 36px;
+}
+
+.pic3 {
+    position: absolute;
+    bottom: 600px;
+    left: 550px;
+    font-size: 36px;
+}
+
+.pic4 {
+    position: absolute;
+    bottom: 300px;
+    left: 800px;
+    font-size: 36px;
+}
+
+/* this is a style for customer comment  */
+.headlineofcustomer {
+    text-transform: uppercase;
+}
+
+.customercomment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment {
+    width: 400px;
+    height: 240px;
+    padding: 28px 32px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    margin-top: 50px;
+    position: relative;
+}
+
+.tick {
+    position: absolute;
+    bottom: 220px;
+    left: 115px;
+}
+
+/* this is a last part of a main  */
+.endofmain {
+    margin: 0px auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 64px;
+    border-radius: 20px;
+    width: 1240px;
+    position: relative;
+    bottom: -100px;
+}
+
+.sentence {
+    font-size: 30px;
+    width: 551px;
+    height: 94px;
+    padding-bottom: 30px;
+}
+
+/* this is style for footer  */
+.startoffooter {
+    background-color: #F0F0F0;
+    width: 1440px;
+    height: 299px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 140px;
+}
+
+.footerinfor li {
+    list-style: none;
+    padding: 15px 0px;
+}
+
+.footerinfor h2 {
+    padding: 15px 0px;
+}
+
+.nameoffooter {
+    padding: 15px 0px;
+}
+.p1 {
+    width: 248px;
+    margin-top: 40px;
+}
+
+.email input {
+    padding: 12px 16px;
+    width: 349px;
+    border-radius: 62px;
+    border: 1px solid #fff;
+    position:relative;
+}
+
+.subscribe {
+    padding:15px 0px;
+    margin-top:10px;
+    text-align:center;
+    background-color:#FFF;
+    border-radius:62px;
+}
+.footer {
+    position: relative;
+}
+.lastoffooter {
+    display:flex;
+    justify-content: space-between;
+    width:1440px;
+    position: absolute;
+    bottom:0.5px;
+}
+.copyright {
+    margin-left:101px;
+}
+.pay {
+    margin-right:100px;
+}
+.line1 {
+    background-color: rgba(0, 0, 0, 0.10);
+    width: 1240px;
+    height: 1px;
+    margin: 15px;
+    left:85px;
+    position: absolute;
+    bottom:50px;
+}
